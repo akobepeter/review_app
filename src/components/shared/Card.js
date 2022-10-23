@@ -14,13 +14,13 @@ const Card = ({children,reverse}) => {
   )
 }
 
-Card.defaultProps ={
+Card.defaultProps = {
   reverse:true
 }
 
-Card.propTypes ={
+Card.propTypes = { 
   children:PropTypes.node.isRequired,
   reverse:PropTypes.bool
-}
+};
 
 export default Card 
